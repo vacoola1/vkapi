@@ -59,7 +59,7 @@
     </properties>
 
     <build>
-        <finalName>restaurantvote</finalName>
+        <finalName>vkapi</finalName>
         <defaultGoal>package</defaultGoal>
         <plugins>
             <plugin>

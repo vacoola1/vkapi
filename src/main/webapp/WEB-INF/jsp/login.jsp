@@ -24,16 +24,18 @@
 
 <div class="jumbotron">
     <div class="container">
-<%--        <c:if test="${error}">
+        <c:if test="${error}">
             <div class="error">
+<%--
                     ${sessionScope["SPRING_SECURITY_LAST_EXCEPTION"].message}
+--%>
             </div>
         </c:if>
         <c:if test="${not empty message}">
             <div class="message">
                 <fmt:message key="${message}"/>
             </div>
-        </c:if>--%>
+        </c:if>
         <p>
 
         <p>User login: <b>user@gmail.com / password</b></p>

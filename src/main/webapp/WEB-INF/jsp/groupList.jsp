@@ -32,7 +32,7 @@
 </div>
 <jsp:include page="fragments/footer.jsp"/>
 
-<div class="modal fade" id="editRow">
+<%--<div class="modal fade" id="editRow">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
@@ -75,7 +75,7 @@
             </div>
         </div>
     </div>
-</div>
+</div>--%>
 </body>
 <script type="text/javascript" src="webjars/jquery/2.2.3/jquery.min.js"></script>
 <script type="text/javascript" src="webjars/bootstrap/3.3.6/js/bootstrap.min.js"></script>
